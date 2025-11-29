@@ -51,3 +51,28 @@ cmake --build .
 ```
 ...note: parameter passing for argument of type ‘std::pair<..., ...>’ when C++17 is enabled changed to match C++14 in GCC 10.1
 ```
+
+- Start Ableton Live
+- Start Link in Ableton Live by clicking on Link in the top left of the UI
+
+- Test your build of Link by running LinkHut and pressing 'a' to join the Jam, i.e.:
+```
+cd ~/Repos/link/build/bin
+./LinkHut
+```
+
+- It should look like this:
+```
+ < L I N K  H U T >
+
+usage:
+  enable / disable Link: a
+  start / stop: space
+  decrease / increase tempo: w / e
+  decrease / increase quantum: r / t
+  enable / disable start stop sync: s
+  quit: q
+
+enabled | num peers | quantum | start stop sync | tempo   | beats   | metro
+yes     | 1         | 4       | no  [stopped]   | 120.00  | 74.25   | XXXO
+```

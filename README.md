@@ -119,3 +119,22 @@ usage:
 enabled | num peers | quantum | start stop sync | tempo   | beats   | metro
 yes     | 1         | 4       | no  [stopped]   | 120.00  | 74.25   | XXXO
 ```
+
+- Install ASIO Dev (needed to compile this repo with Ableton link)
+
+```
+sudo apt-get install -y libasio-dev
+```
+
+- Build this repo
+
+```
+cd ~/Repos/rexxys-linked-matrix
+make
+```
+
+- Run it
+
+```
+./rlm
+```

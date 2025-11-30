@@ -11,9 +11,8 @@ Based on https://github.com/hzeller/rpi-rgb-led-matrix/blob/master/wiring.md
 
 Note: The IDC connector notch is on the same side as the odd numbered pins.
 
-Note: I've also included the color of the ribbon cable wire for each pin.
+Note: I've also included the color of the ribbon cable wire for each pin. Your colors may vary.
 
-|-----------|---------|-----------|-----------|---------|-----------|
 | Color     | Signal  | HUB75 Pin | HUB75 Pin | Signal  | Color     |
 |-----------|---------|-----------|-----------|---------|-----------|
 | Brown-1   | R1      | 1         | 2         | G1      | Red-1     |
@@ -24,10 +23,8 @@ Note: I've also included the color of the ribbon cable wire for each pin.
 | Brown-2   | C       | 11        | 12        | GND     | Red-2     |
 | Orange-2  | CLK     | 13        | 14        | LATCH/STROBE | Yellow-2  |
 | Green-2   | OE      | 15        | 16        | GND     | Blue-2    |
-|-----------|---------|-----------|-----------|---------|-----------|
 
 
-|-----------|---------|--------|--------|---------|-----------|
 | HUB75 Pin | Signal  | Pi Pin | Pi Pin | Signal  | HUB75 Pin |
 |-----------|---------|--------|--------|---------|-----------|
 |           | 3.3V    | 1      | 2      | 5V      |           |
@@ -50,7 +47,6 @@ Note: I've also included the color of the ribbon cable wire for each pin.
 |           | GPIO 19 | 35     | 36     | GPIO 16 |           |
 |           | GPIO 26 | 37     | 38     | GPIO 20 |           |
 |           | GND     | 39     | 40     | GPIO 21 |           |
-|-----------|---------|--------|--------|---------|-----------|
 
 ## Building
 - First, clone this repo
